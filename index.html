@@ -416,6 +416,20 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:300;ba
     width: clamp(280px, 60vw, 400px);
     margin-top: 0; /* Remove upward shift when stacked */
   }
+    .cta-primary{
+  font-family:'Bebas Neue',monospace;font-size:1.2rem;letter-spacing:3px;
+  text-transform:uppercase;color:#060810;background:var(--grad);
+  border:none;text-decoration:none;
+  transition:opacity 0.2s,transform 0.2s;display:inline-block;white-space:nowrap;
+  justify-content: center;
+}
+.cta-primary:hover{opacity:0.85;transform:translateY(-2px);}
+  .cta-ghost{flex:0.5;text-align:center;padding:0.85rem 1rem;}
+  .hero-pic-size {
+    width: clamp(250px, 80vw, 350px);
+    margin-top: 0; /* No upward shift when stacked */
+  }
+
 
   #stats{grid-template-columns:repeat(2,1fr);}
   .stat-cell:nth-child(2){border-right:none;}
@@ -443,7 +457,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:300;ba
   #hero{padding-top:6rem;}
   .hero-cta-row{width:100%;align-items:center;justify-content: center}
   .cta-primary{
-  font-family:'Bebas Neue',monospace;font-size:2.2rem;letter-spacing:3px;
+  font-family:'Bebas Neue',monospace;font-size:0.9rem;letter-spacing:3px;
   text-transform:uppercase;color:#060810;background:var(--grad);
   border:none;text-decoration:none;
   transition:opacity 0.2s,transform 0.2s;display:inline-block;white-space:nowrap;
@@ -586,7 +600,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:300;ba
 
     <div class="hero-right">
       <div class="hero-pic-wrap hero-pic-size">
-        <img src="SOURABH_MUNDE_IMAGE_CASUAL.jpg" class="hero-pic" alt="Sourabh Munde">
+        <img src="SOURABH_MUNDE_IMAGE_CASUAL.jpg"" class="hero-pic" alt="Sourabh Munde">
         <div class="hero-pic-glow"></div>
       </div>
     </div>
